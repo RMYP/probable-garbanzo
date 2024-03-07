@@ -35,9 +35,8 @@ class Binar {
 
       localStorage.setItem("CARS", JSON.stringify(cars));
     }
-
     if (filterer instanceof Function) return cars.filter(filterer);
-
+    
     return cars;
   }
 }
